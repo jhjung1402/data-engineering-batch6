@@ -7,7 +7,7 @@ import psycopg2
 
 def get_Redshift_connection():
     host = "learnde.cduaw970ssvt.ap-northeast-2.redshift.amazonaws.com"
-    user = "keeyong"  # 본인 ID 사용
+    user = "jhjung1402"  # 본인 ID 사용
     password = "..."  # 본인 Password 사용
     port = 5439
     dbname = "dev"

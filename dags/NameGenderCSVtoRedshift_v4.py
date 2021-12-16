@@ -84,7 +84,7 @@ load = PythonOperator(
     task_id = 'load',
     python_callable = load,
     params = {
-        'schema': 'keeyong',   ## 자신의 스키마로 변경
+        'schema': 'jhjung1402',   ## 자신의 스키마로 변경
         'table': 'name_gender'
     },
     provide_context=True,

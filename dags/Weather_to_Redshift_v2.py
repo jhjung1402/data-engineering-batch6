@@ -107,7 +107,7 @@ etl = PythonOperator(
     params = {
         "lat": 37.5665,
         "lon": 126.9780,
-        "schema": "keeyong",
+        "schema": "jhjung1402",
         "table": "weather_forecast"
     },
     provide_context=True,
